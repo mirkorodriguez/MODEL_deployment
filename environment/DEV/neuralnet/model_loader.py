@@ -10,7 +10,7 @@ def cargarModelo():
     FILENAME_SCALER_TO_LOAD = "stdScaler.ser"
     FILENAME_LABELENCODER_X1_TO_LOAD = "labelEncoder_X_1.ser"
     FILENAME_LABELENCODER_X2_TO_LOAD = "labelEncoder_X_2.ser"
-    MODEL_PATH = "../../../models/neuralnet/churn-clients"
+    MODEL_PATH = "../../../models/neuralnet"
 
     # Cargar la RNA desde disco
     loaded_model = load_model(MODEL_PATH + "/" + FILENAME_MODEL_TO_LOAD)
