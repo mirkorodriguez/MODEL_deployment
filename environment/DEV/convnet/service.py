@@ -12,6 +12,7 @@ import requests
 import json
 import os
 from werkzeug.utils import secure_filename
+from model_loader import cargarModelo
 
 UPLOAD_FOLDER = '../../../samples/images/uploads'
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
